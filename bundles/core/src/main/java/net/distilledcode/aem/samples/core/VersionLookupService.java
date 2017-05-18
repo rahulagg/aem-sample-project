@@ -49,6 +49,7 @@ public class VersionLookupService {
     private void activate() throws LoginException, IOException {
         ResourceResolver resolver = null;
         try {
+            fdsfsd
             resolver = resolverFactory.getAdministrativeResourceResolver(null);
             final Resource resource = resolver.getResource(VERSION_FILE);
             if (resource != null) {
